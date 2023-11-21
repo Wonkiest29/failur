@@ -1,2 +1,17 @@
-# failur
-bashscript
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## todo
+
+- [ ] nginx
+- [ ] php
+- [ ] phpnyadimn
+- [ ] certbot
+- [ ] java
