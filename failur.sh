@@ -32,6 +32,7 @@ echo "server {
     }
 }" > /etc/nginx/sites-enabled/default
 nginx -t
+serice nginx reload
 # Install MySQL Server
 apt install mysql-server
 
