@@ -35,7 +35,7 @@ nginx -t
 service nginx restart
 # Install MySQL Server
 apt install mysql-server
-
+sudo mysql_secure_installation
 # Install phpMyAdmin
 apt install phpmyadmin
 ln -s /usr/share/phpmyadmin /var/www/html
