@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Update and upgrade packages
-apt-get update 
-apt-get upgrade 
+sudo sudo apt-get update 
+sudo apt-get upgrade 
 
 # Install Nginx and PHP-FPM
-apt-get install nginx 
-apt-get install php8.1-fpm
+sudo apt-get install nginx 
+sudo apt-get install php8.2-fpm
 
 # Remove default Nginx configuration
 rm /etc/nginx/sites-enabled/default 
@@ -34,10 +34,10 @@ echo "server {
 nginx -t
 service nginx restart
 # Install MySQL Server
-apt-get install mysql-server
+sudo apt-get install mysql-server
 sudo mysql_secure_installation
 # Install phpMyAdmin
-apt-get install phpmyadmin
+sudo apt-get install phpmyadmin
 ln -s /usr/share/phpmyadmin /var/www/html
 
 # !/bin/bash
